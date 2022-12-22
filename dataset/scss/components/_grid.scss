@@ -40,6 +40,7 @@
         display: flex;
         align-items: center;
         padding: 8px;
+        color: $momentum_clr9;
 
         .lbl {
             grid-area: lbl;
@@ -279,24 +280,60 @@
         grid-area: l1e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e2 {
         grid-area: l1g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e3 {
         grid-area: l1g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e4 {
         grid-area: l1g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1t {
@@ -304,30 +341,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e1 {
         grid-area: l1g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e2 {
         grid-area: l1g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e3 {
         grid-area: l1g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e4 {
         grid-area: l1g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2t {
@@ -336,6 +418,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -359,18 +450,45 @@
         grid-area: l2e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e2 {
         grid-area: l2g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e3 {
         grid-area: l2g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e4 {
@@ -384,12 +502,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e1 {
         grid-area: l2g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e2 {
@@ -408,6 +544,15 @@
         grid-area: l2g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2t {
@@ -416,6 +561,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -438,24 +592,60 @@
         grid-area: l3e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e2 {
         grid-area: l3g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e3 {
         grid-area: l3g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e4 {
         grid-area: l3g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1t {
@@ -463,30 +653,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e1 {
         grid-area: l3g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e2 {
         grid-area: l3g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e3 {
         grid-area: l3g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e4 {
         grid-area: l3g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2t {
@@ -495,6 +730,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -517,24 +761,60 @@
         grid-area: l4e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e2 {
         grid-area: l4g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e3 {
         grid-area: l4g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e4 {
         grid-area: l4g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1t {
@@ -542,30 +822,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e1 {
         grid-area: l4g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e2 {
         grid-area: l4g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e3 {
         grid-area: l4g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e4 {
         grid-area: l4g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2t {
@@ -574,6 +899,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -596,24 +930,60 @@
         grid-area: l5e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e2 {
         grid-area: l5g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e3 {
         grid-area: l5g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e4 {
         grid-area: l5g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1t {
@@ -621,30 +991,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e1 {
         grid-area: l5g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e2 {
         grid-area: l5g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e3 {
         grid-area: l5g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e4 {
         grid-area: l5g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2t {
@@ -653,6 +1068,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -681,6 +1105,15 @@
         grid-area: l6g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e3 {
@@ -693,6 +1126,15 @@
         grid-area: l6g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1t {
@@ -700,30 +1142,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e1 {
         grid-area: l6g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e2 {
         grid-area: l6g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e3 {
         grid-area: l6g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e4 {
         grid-area: l6g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2t {
@@ -732,6 +1219,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -754,24 +1250,60 @@
         grid-area: l7e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e2 {
         grid-area: l7g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e3 {
         grid-area: l7g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e4 {
         grid-area: l7g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1t {
@@ -779,6 +1311,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e1 {
@@ -786,6 +1327,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e2 {
@@ -793,6 +1343,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
 
     }
 
@@ -801,6 +1360,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
 
     }
 
@@ -809,6 +1377,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2t {
@@ -818,6 +1395,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -841,6 +1427,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e2 {
@@ -849,6 +1444,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e3 {
@@ -856,6 +1460,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e4 {
@@ -870,6 +1483,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e1 {
@@ -877,6 +1499,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e2 {
@@ -884,6 +1515,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e3 {
@@ -891,6 +1531,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e4 {
@@ -898,6 +1547,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2t {
@@ -907,6 +1565,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -929,24 +1596,60 @@
         grid-area: l9e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e2 {
         grid-area: l9g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e3 {
         grid-area: l9g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e4 {
         grid-area: l9g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1t {
@@ -954,6 +1657,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e1 {
@@ -961,6 +1673,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e2 {
@@ -968,7 +1689,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
-
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e3 {
@@ -976,6 +1705,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e4 {
@@ -983,6 +1721,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2t {
@@ -992,6 +1739,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1014,24 +1770,60 @@
         grid-area: l10e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e2 {
         grid-area: l10g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e3 {
         grid-area: l10g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e4 {
         grid-area: l10g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1t {
@@ -1039,6 +1831,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e1 {
@@ -1046,6 +1847,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e2 {
@@ -1053,6 +1863,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e3 {
@@ -1060,6 +1879,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e4 {
@@ -1067,6 +1895,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2t {
@@ -1076,6 +1913,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1099,6 +1945,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e2 {
@@ -1106,6 +1961,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e3 {
@@ -1113,12 +1977,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e4 {
         grid-area: l11g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1t {
@@ -1126,6 +2008,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e1 {
@@ -1133,6 +2024,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e2 {
@@ -1140,6 +2040,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e3 {
@@ -1147,6 +2056,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e4 {
@@ -1154,6 +2072,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2t {
@@ -1163,6 +2090,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1186,6 +2122,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e2 {
@@ -1193,6 +2138,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e3 {
@@ -1200,12 +2154,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e4 {
         grid-area: l12g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1t {
@@ -1213,6 +2185,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g2e1 {
@@ -1220,6 +2201,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g2e2 {
@@ -1227,6 +2217,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g2e3 {
@@ -1234,6 +2233,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g2e4 {
@@ -1241,6 +2249,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g2t {
@@ -1250,6 +2267,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1273,6 +2299,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e2 {
@@ -1280,6 +2315,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e3 {
@@ -1287,12 +2331,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e4 {
         grid-area: l13g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1t {
@@ -1300,6 +2362,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g2e1 {
@@ -1307,6 +2378,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g2e2 {
@@ -1314,6 +2394,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g2e3 {
@@ -1321,6 +2410,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g2e4 {
@@ -1328,6 +2426,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g2t {
@@ -1337,6 +2444,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1360,6 +2476,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e2 {
@@ -1367,6 +2492,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e3 {
@@ -1374,12 +2508,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e4 {
         grid-area: l14g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1t {
@@ -1387,6 +2539,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g2e1 {
@@ -1394,6 +2555,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g2e2 {
@@ -1401,6 +2571,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g2e3 {
@@ -1408,6 +2587,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g2e4 {
@@ -1415,6 +2603,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g2t {
@@ -1424,6 +2621,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1447,6 +2653,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e2 {
@@ -1454,6 +2669,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e3 {
@@ -1461,12 +2685,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e4 {
         grid-area: l15g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1t {
@@ -1474,6 +2716,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g2e1 {
@@ -1481,6 +2732,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g2e2 {
@@ -1488,6 +2748,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g2e3 {
@@ -1495,6 +2764,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g2e4 {
@@ -1502,6 +2780,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g2t {
@@ -1511,6 +2798,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1534,6 +2830,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e2 {
@@ -1541,6 +2846,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e3 {
@@ -1548,12 +2862,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e4 {
         grid-area: l16g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
 
     }
 
@@ -1562,6 +2894,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g2e1 {
@@ -1569,6 +2910,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g2e2 {
@@ -1576,6 +2926,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g2e3 {
@@ -1583,6 +2942,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g2e4 {
@@ -1590,6 +2958,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g2t {
@@ -1599,6 +2976,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1622,6 +3008,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e2 {
@@ -1629,6 +3024,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e3 {
@@ -1636,12 +3040,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e4 {
         grid-area: l17g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1t {
@@ -1649,6 +3071,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g2e1 {
@@ -1656,6 +3087,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g2e2 {
@@ -1663,6 +3103,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g2e3 {
@@ -1670,6 +3119,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g2e4 {
@@ -1677,6 +3135,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g2t {
@@ -1686,6 +3153,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1708,24 +3184,60 @@
         grid-area: l18e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e2 {
         grid-area: l18g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e3 {
         grid-area: l18g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e4 {
         grid-area: l18g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1t {
@@ -1733,12 +3245,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g2e1 {
         grid-area: l18g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g2e2 {
@@ -1751,12 +3281,30 @@
         grid-area: l18g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g2e4 {
         grid-area: l18g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g2t {
@@ -1764,6 +3312,15 @@
         border-left: 1px solid $clr_brdr;
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
         background-color: $clr4;
     }
 
@@ -1787,24 +3344,60 @@
         grid-area: l19e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1e2 {
         grid-area: l19g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1e3 {
         grid-area: l19g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1e4 {
         grid-area: l19g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1t {
@@ -1812,30 +3405,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g2e1 {
         grid-area: l19g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g2e2 {
         grid-area: l19g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g2e3 {
         grid-area: l19g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g2e4 {
         grid-area: l19g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g2t {
@@ -1844,6 +3482,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -1866,24 +3513,60 @@
         grid-area: l20e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e2 {
         grid-area: l20g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e3 {
         grid-area: l20g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e4 {
         grid-area: l20g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1t {
@@ -1897,24 +3580,60 @@
         grid-area: l20g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g2e2 {
         grid-area: l20g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g2e3 {
         grid-area: l20g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g2e4 {
         grid-area: l20g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g2t {
@@ -1923,6 +3642,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
 }
@@ -1960,6 +3688,7 @@
         display: flex;
         align-items: center;
         padding: 8px;
+        color: $momentum_clr9;
 
         .lbl {
             grid-area: lbl;
@@ -2199,24 +3928,60 @@
         grid-area: l1e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e2 {
         grid-area: l1g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e3 {
         grid-area: l1g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e4 {
         grid-area: l1g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1t {
@@ -2224,30 +3989,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e1 {
         grid-area: l1g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e2 {
         grid-area: l1g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e3 {
         grid-area: l1g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2e4 {
         grid-area: l1g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g2t {
@@ -2256,6 +4066,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2279,24 +4098,60 @@
         grid-area: l2e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e2 {
         grid-area: l2g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e3 {
         grid-area: l2g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e4 {
         grid-area: l2g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1t {
@@ -2304,30 +4159,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e1 {
         grid-area: l2g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e2 {
         grid-area: l2g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e3 {
         grid-area: l2g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2e4 {
         grid-area: l2g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g2t {
@@ -2336,6 +4236,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2358,24 +4267,60 @@
         grid-area: l3e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e2 {
         grid-area: l3g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e3 {
         grid-area: l3g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e4 {
         grid-area: l3g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1t {
@@ -2383,30 +4328,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e1 {
         grid-area: l3g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e2 {
         grid-area: l3g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e3 {
         grid-area: l3g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2e4 {
         grid-area: l3g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g2t {
@@ -2415,6 +4405,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2437,24 +4436,60 @@
         grid-area: l4e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e2 {
         grid-area: l4g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e3 {
         grid-area: l4g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e4 {
         grid-area: l4g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1t {
@@ -2462,30 +4497,75 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e1 {
         grid-area: l4g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e2 {
         grid-area: l4g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e3 {
         grid-area: l4g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2e4 {
         grid-area: l4g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g2t {
@@ -2494,6 +4574,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2516,24 +4605,60 @@
         grid-area: l5e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e2 {
         grid-area: l5g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e3 {
         grid-area: l5g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e4 {
         grid-area: l5g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1t {
@@ -2541,6 +4666,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e1 {
@@ -2548,6 +4682,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e2 {
@@ -2555,6 +4698,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e3 {
@@ -2562,6 +4714,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2e4 {
@@ -2569,6 +4730,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g2t {
@@ -2577,6 +4747,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2599,24 +4778,60 @@
         grid-area: l6e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e2 {
         grid-area: l6g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e3 {
         grid-area: l6g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e4 {
         grid-area: l6g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1t {
@@ -2624,6 +4839,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e1 {
@@ -2631,6 +4855,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e2 {
@@ -2638,6 +4871,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e3 {
@@ -2645,6 +4887,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2e4 {
@@ -2652,6 +4903,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g2t {
@@ -2660,6 +4920,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2682,24 +4951,60 @@
         grid-area: l7e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e2 {
         grid-area: l7g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e3 {
         grid-area: l7g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e4 {
         grid-area: l7g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1t {
@@ -2707,6 +5012,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e1 {
@@ -2714,6 +5028,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e2 {
@@ -2721,7 +5044,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
-
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e3 {
@@ -2729,6 +5060,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2e4 {
@@ -2736,6 +5076,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g2t {
@@ -2744,6 +5093,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2767,24 +5125,60 @@
         grid-area: l8e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e2 {
         grid-area: l8g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e3 {
         grid-area: l8g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e4 {
         grid-area: l8g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1t {
@@ -2792,6 +5186,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e1 {
@@ -2799,6 +5202,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e2 {
@@ -2806,6 +5218,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e3 {
@@ -2813,6 +5234,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2e4 {
@@ -2820,6 +5250,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g2t {
@@ -2828,6 +5267,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2850,24 +5298,60 @@
         grid-area: l9e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e2 {
         grid-area: l9g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e3 {
         grid-area: l9g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e4 {
         grid-area: l9g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1t {
@@ -2875,6 +5359,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e1 {
@@ -2882,6 +5375,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e2 {
@@ -2889,6 +5391,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
 
     }
 
@@ -2897,6 +5408,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2e4 {
@@ -2904,6 +5424,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g2t {
@@ -2912,6 +5441,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -2934,24 +5472,60 @@
         grid-area: l10e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e2 {
         grid-area: l10g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e3 {
         grid-area: l10g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e4 {
         grid-area: l10g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1t {
@@ -2959,6 +5533,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e1 {
@@ -2966,6 +5549,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e2 {
@@ -2973,6 +5565,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e3 {
@@ -2980,6 +5581,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2e4 {
@@ -2987,6 +5597,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g2t {
@@ -2995,6 +5614,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3017,6 +5645,15 @@
         grid-area: l11e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e2 {
@@ -3029,12 +5666,30 @@
         grid-area: l11g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e4 {
         grid-area: l11g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1t {
@@ -3042,6 +5697,15 @@
         border-left: 1px solid $clr_brdr;
         background-color: $clr4;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e1 {
@@ -3049,6 +5713,15 @@
         border-left: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e2 {
@@ -3056,6 +5729,15 @@
         border-left: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e3 {
@@ -3063,6 +5745,15 @@
         border-left: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2e4 {
@@ -3070,6 +5761,15 @@
         border-left: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g2t {
@@ -3078,6 +5778,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
 }
@@ -3128,6 +5837,7 @@
         display: flex;
         align-items: center;
         padding: 8px;
+        color: $momentum_clr9;
 
         .lbl {
             grid-area: lbl;
@@ -3263,24 +5973,60 @@
         grid-area: l1e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e2 {
         grid-area: l1g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e3 {
         grid-area: l1g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1e4 {
         grid-area: l1g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l1g1t {
@@ -3289,6 +6035,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3312,24 +6067,60 @@
         grid-area: l2e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e2 {
         grid-area: l2g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e3 {
         grid-area: l2g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1e4 {
         grid-area: l2g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l2g1t {
@@ -3338,6 +6129,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3360,24 +6160,60 @@
         grid-area: l3e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e2 {
         grid-area: l3g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e3 {
         grid-area: l3g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1e4 {
         grid-area: l3g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l3g1t {
@@ -3386,6 +6222,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3408,24 +6253,60 @@
         grid-area: l4e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e2 {
         grid-area: l4g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e3 {
         grid-area: l4g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1e4 {
         grid-area: l4g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l4g1t {
@@ -3434,6 +6315,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3456,24 +6346,60 @@
         grid-area: l5e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e2 {
         grid-area: l5g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e3 {
         grid-area: l5g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1e4 {
         grid-area: l5g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l5g1t {
@@ -3482,6 +6408,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3504,24 +6439,60 @@
         grid-area: l6e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e2 {
         grid-area: l6g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e3 {
         grid-area: l6g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1e4 {
         grid-area: l6g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l6g1t {
@@ -3530,6 +6501,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3552,24 +6532,60 @@
         grid-area: l7e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e2 {
         grid-area: l7g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e3 {
         grid-area: l7g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1e4 {
         grid-area: l7g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l7g1t {
@@ -3578,6 +6594,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3602,6 +6627,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e2 {
@@ -3610,6 +6644,15 @@
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e3 {
@@ -3617,12 +6660,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1e4 {
         grid-area: l8g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l8g1t {
@@ -3631,6 +6692,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3654,6 +6724,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e2 {
@@ -3661,6 +6740,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e3 {
@@ -3668,12 +6756,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1e4 {
         grid-area: l9g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l9g1t {
@@ -3682,6 +6788,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3705,6 +6820,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e2 {
@@ -3712,6 +6836,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e3 {
@@ -3719,12 +6852,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1e4 {
         grid-area: l10g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l10g1t {
@@ -3733,6 +6884,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3756,6 +6916,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e2 {
@@ -3763,6 +6932,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e3 {
@@ -3770,12 +6948,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1e4 {
         grid-area: l11g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l11g1t {
@@ -3784,6 +6980,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3807,6 +7012,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e2 {
@@ -3814,6 +7028,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e3 {
@@ -3821,12 +7044,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1e4 {
         grid-area: l12g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l12g1t {
@@ -3835,6 +7076,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3858,6 +7108,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e2 {
@@ -3865,6 +7124,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e3 {
@@ -3872,12 +7140,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1e4 {
         grid-area: l13g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l13g1t {
@@ -3886,6 +7172,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3909,6 +7204,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e2 {
@@ -3916,6 +7220,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e3 {
@@ -3923,12 +7236,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1e4 {
         grid-area: l14g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l14g1t {
@@ -3937,6 +7268,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -3960,6 +7300,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e2 {
@@ -3967,6 +7316,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e3 {
@@ -3974,12 +7332,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1e4 {
         grid-area: l15g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l15g1t {
@@ -3988,6 +7364,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4011,6 +7396,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e2 {
@@ -4018,6 +7412,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e3 {
@@ -4025,12 +7428,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l16g1e4 {
         grid-area: l16g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
 
     }
 
@@ -4040,6 +7461,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4063,6 +7493,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e2 {
@@ -4070,6 +7509,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e3 {
@@ -4077,12 +7525,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1e4 {
         grid-area: l17g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l17g1t {
@@ -4091,6 +7557,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4114,6 +7589,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e2 {
@@ -4121,6 +7605,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e3 {
@@ -4128,12 +7621,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1e4 {
         grid-area: l18g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l18g1t {
@@ -4142,6 +7653,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4165,6 +7685,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1e2 {
@@ -4179,12 +7708,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1e4 {
         grid-area: l19g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l19g1t {
@@ -4193,6 +7740,15 @@
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4216,6 +7772,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e2 {
@@ -4223,6 +7788,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e3 {
@@ -4230,12 +7804,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1e4 {
         grid-area: l20g1e4;
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l20g1t {
@@ -4244,6 +7836,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4267,6 +7868,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l21g1e2 {
@@ -4281,12 +7891,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l21g1e4 {
         grid-area: l21g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l21g1t {
@@ -4295,6 +7923,15 @@
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4318,6 +7955,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l22g1e2 {
@@ -4325,6 +7971,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l22g1e3 {
@@ -4332,12 +7987,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l22g1e4 {
         grid-area: l22g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l22g1t {
@@ -4346,6 +8019,15 @@
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4369,6 +8051,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l23g1e2 {
@@ -4376,6 +8067,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l23g1e3 {
@@ -4383,12 +8083,30 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l23g1e4 {
         grid-area: l23g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l23g1t {
@@ -4397,6 +8115,15 @@
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     ///////////////////////////
@@ -4419,6 +8146,15 @@
         grid-area: l24e1g1;
         border-left: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l24g1e2 {
@@ -4426,6 +8162,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l24g1e3 {
@@ -4433,6 +8178,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l24g1e4 {
@@ -4440,6 +8194,15 @@
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 
     .l24g1t {
@@ -4448,5 +8211,14 @@
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
         background-color: $clr4;
+        
+        input {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent;
+        }
     }
 }
