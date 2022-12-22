@@ -1,9 +1,9 @@
-.container {
+.grd-1 {
     display: grid;
     grid-template-columns: 30% 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 24px 24px repeat(6, 24px) 48px repeat(12, 24px) 48px;
+    grid-template-rows: auto;
     grid-auto-columns: max-content;
-    grid-auto-rows: 24px;
+    grid-auto-rows: auto;
     gap: 0px 0px;
     grid-auto-flow: column;
     border: 1px solid $clr_brdr;
@@ -33,15 +33,15 @@
 
     .title {
         grid-area: title;
-        align-self: center;
-        padding-left: 8px;
         background-color: $clr1;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            width: 100%;
-            height: 47px;
-            line-height: 47px;
+            grid-area: lbl;
+            align-self: center;
             font-weight: 500;
             text-transform: uppercase;
         }
@@ -52,11 +52,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -68,11 +69,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -84,11 +86,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -100,11 +103,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -116,11 +120,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -132,11 +137,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 48px;
-            line-height: 48px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -148,11 +154,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -164,11 +171,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -180,11 +188,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -196,11 +205,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -212,11 +222,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 24px;
-            line-height: 24px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -228,11 +239,12 @@
         background-color: $clr2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
             width: 100%;
-            height: 48px;
-            line-height: 48px;
             font-weight: 500;
             text-align: center;
             text-transform: capitalize;
@@ -245,11 +257,12 @@
         grid-area: l1;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
             text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -322,11 +335,12 @@
         grid-area: l2;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
             text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -399,11 +413,11 @@
         grid-area: l3;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -435,7 +449,8 @@
     .l3g1t {
         grid-area: l3g1t;
         border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;background-color: $clr4;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr4;
     }
 
     .l3g2e1 {
@@ -475,11 +490,11 @@
         grid-area: l4;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -552,11 +567,11 @@
         grid-area: l5;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -629,11 +644,11 @@
         grid-area: l6;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -706,11 +721,11 @@
         grid-area: l7;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -749,24 +764,38 @@
     .l7g2e1 {
         grid-area: l7g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l7g2e2 {
         grid-area: l7g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
 
     }
 
     .l7g2e3 {
         grid-area: l7g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
 
     }
 
     .l7g2e4 {
         grid-area: l7g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l7g2t {
         grid-area: l7g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -776,11 +805,11 @@
         border-bottom: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -789,47 +818,71 @@
         grid-area: l8e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g1e2 {
         grid-area: l8g1e2;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g1e3 {
         grid-area: l8g1e3;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g1e4 {
         grid-area: l8g1e4;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g1t {
         grid-area: l8g1t;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g2e1 {
         grid-area: l8g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g2e2 {
         grid-area: l8g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g2e3 {
         grid-area: l8g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g2e4 {
         grid-area: l8g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l8g2t {
         grid-area: l8g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -838,11 +891,11 @@
         grid-area: l9;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -880,23 +933,37 @@
     .l9g2e1 {
         grid-area: l9g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l9g2e2 {
         grid-area: l9g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
 
     }
 
     .l9g2e3 {
         grid-area: l9g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l9g2e4 {
         grid-area: l9g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l9g2t {
         grid-area: l9g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -905,11 +972,11 @@
         grid-area: l10;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -947,22 +1014,36 @@
     .l10g2e1 {
         grid-area: l10g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l10g2e2 {
         grid-area: l10g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l10g2e3 {
         grid-area: l10g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l10g2e4 {
         grid-area: l10g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l10g2t {
         grid-area: l10g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -971,11 +1052,11 @@
         grid-area: l11;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -984,18 +1065,21 @@
         grid-area: l11e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g1e2 {
         grid-area: l11g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g1e3 {
         grid-area: l11g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g1e4 {
@@ -1013,22 +1097,36 @@
     .l11g2e1 {
         grid-area: l11g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g2e2 {
         grid-area: l11g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g2e3 {
         grid-area: l11g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g2e4 {
         grid-area: l11g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l11g2t {
         grid-area: l11g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1037,11 +1135,11 @@
         grid-area: l12;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1050,18 +1148,21 @@
         grid-area: l12e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g1e2 {
         grid-area: l12g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g1e3 {
         grid-area: l12g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g1e4 {
@@ -1079,22 +1180,36 @@
     .l12g2e1 {
         grid-area: l12g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g2e2 {
         grid-area: l12g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g2e3 {
         grid-area: l12g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g2e4 {
         grid-area: l12g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l12g2t {
         grid-area: l12g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1103,11 +1218,11 @@
         grid-area: l13;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1116,18 +1231,21 @@
         grid-area: l13e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g1e2 {
         grid-area: l13g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g1e3 {
         grid-area: l13g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g1e4 {
@@ -1145,22 +1263,36 @@
     .l13g2e1 {
         grid-area: l13g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g2e2 {
         grid-area: l13g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g2e3 {
         grid-area: l13g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g2e4 {
         grid-area: l13g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l13g2t {
         grid-area: l13g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1169,11 +1301,11 @@
         grid-area: l14;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1182,18 +1314,21 @@
         grid-area: l14e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g1e2 {
         grid-area: l14g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g1e3 {
         grid-area: l14g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g1e4 {
@@ -1211,22 +1346,36 @@
     .l14g2e1 {
         grid-area: l14g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g2e2 {
         grid-area: l14g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g2e3 {
         grid-area: l14g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g2e4 {
         grid-area: l14g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l14g2t {
         grid-area: l14g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1235,11 +1384,11 @@
         grid-area: l15;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1248,18 +1397,21 @@
         grid-area: l15e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g1e2 {
         grid-area: l15g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g1e3 {
         grid-area: l15g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g1e4 {
@@ -1277,22 +1429,36 @@
     .l15g2e1 {
         grid-area: l15g2e1;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g2e2 {
         grid-area: l15g2e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g2e3 {
         grid-area: l15g2e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g2e4 {
         grid-area: l15g2e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l15g2t {
         grid-area: l15g2t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1301,11 +1467,11 @@
         grid-area: l16;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1314,24 +1480,28 @@
         grid-area: l16e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g1e2 {
         grid-area: l16g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g1e3 {
         grid-area: l16g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g1e4 {
         grid-area: l16g1e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+
     }
 
     .l16g1t {
@@ -1344,30 +1514,35 @@
         grid-area: l16g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g2e2 {
         grid-area: l16g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g2e3 {
         grid-area: l16g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g2e4 {
         grid-area: l16g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l16g2t {
         grid-area: l16g2t;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1376,11 +1551,11 @@
         grid-area: l17;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1389,18 +1564,21 @@
         grid-area: l17e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g1e2 {
         grid-area: l17g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g1e3 {
         grid-area: l17g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g1e4 {
@@ -1419,30 +1597,35 @@
         grid-area: l17g2e1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g2e2 {
         grid-area: l17g2e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g2e3 {
         grid-area: l17g2e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g2e4 {
         grid-area: l17g2e4;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     .l17g2t {
         grid-area: l17g2t;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
     }
 
     ///////////////////////////
@@ -1451,11 +1634,11 @@
         grid-area: l18;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1526,11 +1709,11 @@
         grid-area: l19;
         border-bottom: 1px solid $clr_brdr;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
@@ -1600,12 +1783,11 @@
     .l20 {
         grid-area: l20;
         background-color: $clr3;
+        display: flex;
+        align-items: center;
+        padding: 8px;
 
         .lbl {
-
-            line-height: 24px;
-            text-align: left;
-            padding-left: 8px;
             text-transform: capitalize;
         }
     }
