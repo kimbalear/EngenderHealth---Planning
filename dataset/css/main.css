@@ -17236,10 +17236,88 @@
 }
 
 .custom_tab {
-  border: 1px solid #299296;
-  background: #299296;
+  border: 1px solid #DFBFE8;
+  background: #DFBFE8;
   color: #FFFFFF;
   font-weight: bold;
+}
+.custom_tab .ui-state-default {
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #DFBFE8;
+}
+.custom_tab .ui-widget-content .ui-state-default {
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #DFBFE8;
+}
+.custom_tab .ui-widget-content .ui-state-active {
+  border: 1px solid #9E53A8;
+  background: #DFBFE8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab .ui-widget-header .ui-state-default {
+  border: 1px solid #9E53A8;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #DFBFE8;
+}
+.custom_tab .ui-widget-header .ui-state-active {
+  border: 1px solid #9E53A8;
+  background: #9E53A8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab .ui-button {
+  border: 1px solid #9E53A8;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #DFBFE8;
+}
+.custom_tab .ui-button:active {
+  border: 1px solid #9E53A8;
+  background: #9E53A8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab .ui-button.ui-state-disabled:hover {
+  border: 1px solid #9E53A8;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #9E53A8;
+}
+.custom_tab .ui-button.ui-state-disabled:active {
+  border: 1px solid #9E53A8;
+  background: #9E53A8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab .ui-state-active {
+  border: 1px solid #9E53A8;
+  background: #9E53A8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab a.ui-button:active {
+  border: 1px solid #9E53A8;
+  background: #9E53A8;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.custom_tab .ui-button.ui-state-active:hover {
+  border: 1px solid #9E53A8;
+  background: #FFFFFF;
+  font-weight: bold;
+  color: #9E53A8;
+}
+.custom_tab .ui-state-active a, .custom_tab .ui-state-active a:link, .custom_tab .ui-state-active a:visited {
+  color: #FFFFFF;
+}
+.custom_tab .ui-state-default a, .custom_tab .ui-state-default a:link, .custom_tab a.ui-button, .custom_tab a:link.ui-button, .custom_tab .ui-button {
+  color: #9E53A8;
 }
 
 .content_tabs {

@@ -1,10 +1,112 @@
-.custom_tab{
-    border: 1px solid $momentum_clr6;
-    background: $momentum_clr6;
+.custom_tab {
+    border: 1px solid $momentum_clr7;
+    background: $momentum_clr7;
     color: $momentum_clr9;
     font-weight: bold;
+
+    .ui-state-default {
+        border: 1px solid $color_3;
+        background: $color_3;
+        font-weight: bold;
+        color: $color_1;
+    }
+
+    .ui-widget-content {
+        .ui-state-default {
+            border: 1px solid $color_3;
+            background: $color_3;
+            font-weight: bold;
+            color: $color_1;
+        }
+
+        .ui-state-active {
+            border: 1px solid $color_4;
+            background: $color_1;
+            font-weight: bold;
+            color: $color_3;
+        }
+    }
+
+    .ui-widget-header {
+        .ui-state-default {
+            border: 1px solid $color_4;
+            background: $color_3;
+            font-weight: bold;
+            color: $color_1;
+        }
+
+        .ui-state-active {
+            border: 1px solid $color_4;
+            background: $color_4;
+            font-weight: bold;
+            color: $color_3;
+        }
+    }
+
+    .ui-button {
+        border: 1px solid $color_4;
+        background: $color_3;
+        font-weight: bold;
+        color: $color_1;
+
+        &:active {
+            border: 1px solid $color_4;
+            background: $color_4;
+            font-weight: bold;
+            color: $color_3;
+        }
+    }
+
+    .ui-button.ui-state-disabled {
+        &:hover {
+            border: 1px solid $color_4;
+            background: $color_3;
+            font-weight: bold;
+            color: $color_4;
+        }
+
+        &:active {
+            border: 1px solid $color_4;
+            background: $color_4;
+            font-weight: bold;
+            color: $color_3;
+        }
+    }
+
+    .ui-state-active {
+        border: 1px solid $color_4;
+        background: $color_4;
+        font-weight: bold;
+        color: $color_3;
+    }
+
+    a.ui-button {
+        &:active {
+            border: 1px solid $color_4;
+            background: $color_4;
+            font-weight: bold;
+            color: $color_3;
+        }
+    }
+
+    .ui-button.ui-state-active {
+        &:hover {
+            border: 1px solid $color_4;
+            background: $color_3;
+            font-weight: bold;
+            color: $color_4;
+        }
+    }
+
+    .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+        color: $color_3;
+    }
+
+    .ui-state-default a, .ui-state-default a:link, a.ui-button, a:link.ui-button, .ui-button {
+        color: $color_4;
+    }
 }
 
 .content_tabs {
     min-height: 300px;
-  }
+}
