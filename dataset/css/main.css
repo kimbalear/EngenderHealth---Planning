@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 .grdTb1-1 {
   display: grid;
-  grid-template-columns: 30% repeat(10, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(10, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: max-content;
   grid-auto-rows: auto;
@@ -3132,7 +3132,7 @@
 
 .grdTb1-2 {
   display: grid;
-  grid-template-columns: 30% repeat(10, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(10, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: max-content;
   grid-auto-rows: auto;
@@ -4963,7 +4963,7 @@
 
 .grdTb1-3 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -7019,7 +7019,7 @@
 
 .grdTb2-1 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -8016,7 +8016,7 @@
 
 .grdTb2-2 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -10213,7 +10213,7 @@
 
 .grdTb2-3 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -12274,7 +12274,7 @@
 
 .grdTb3-1 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -12454,7 +12454,7 @@
 
 .grdTb3-2 {
   display: grid;
-  grid-template-columns: 30% repeat(10, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(10, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: max-content;
   grid-auto-rows: auto;
@@ -13105,7 +13105,7 @@
 
 .grdTb3-3 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -14414,7 +14414,7 @@
 
 .grdTb3-4 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
@@ -15012,7 +15012,7 @@
 .grdTb3-5 {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-template-columns: 30% repeat(6, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(6, minmax(90px, 100px));
   grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: column;
@@ -15425,7 +15425,7 @@
 .grdTb3-6 {
   display: grid;
   grid-auto-rows: 1fr;
-  grid-template-columns: 30% repeat(6, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(6, minmax(90px, 100px));
   grid-template-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: column;
@@ -15837,7 +15837,7 @@
 
 .grdTb3-7 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(100px, 120px));
+  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
