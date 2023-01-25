@@ -3,7 +3,10 @@
 @import 'abstracts/_var.scss',
 'abstracts/_typography.scss';
 
-@import 'components/_grid.scss',
+//@import 'components/_grid.scss',
+@import 'components/grids_tab1',
+'components/grids_tab2',
+'components/grids_tab3',
 'components/_tabs.scss';
 
 i,
