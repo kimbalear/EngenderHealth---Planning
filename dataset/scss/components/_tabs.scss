@@ -1,3 +1,4 @@
+/*
 .custom_tab {
     border: 1px solid $clr4;
     background: $clr4;
@@ -118,3 +119,17 @@
     min-height: 300px;
     overflow-y: auto;
 }
+
+*/
+/* Change background color of tabs */
+.tabs {
+    .tab-links {
+      a {
+        background-color: #ddd;
+      }
+    }
+    /* Change background color of active tab */
+    .tab-links li.active a {
+      background-color: #f9f9f9;
+    }
+  }
