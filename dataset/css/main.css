@@ -17065,138 +17065,51 @@
   background-color: transparent;
 }
 
-/*
 .custom_tab {
-    border: 1px solid $clr4;
-    background: $clr4;
-    color: $momentum_clr9;
-    font-weight: bold;
-
-    .ui-state-default {
-        border: 1px solid $color_3;
-        background: $color_3;
-        font-weight: bold;
-        color: $color_1;
-    }
-
-    .ui-widget-content {
-        .ui-state-default {
-            border: 1px solid $color_3;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_1;
-        }
-
-        .ui-state-active {
-            border: 1px solid $color_4;
-            background: $color_1;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-widget-header {
-        .ui-state-default {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_1;
-        }
-
-        .ui-state-active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button {
-        border: 1px solid $color_4;
-        background: $color_3;
-        font-weight: bold;
-        color: $color_1;
-
-        &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button.ui-state-disabled {
-        &:hover {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_4;
-        }
-
-        &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-state-active {
-        border: 1px solid $color_4;
-        background: $color_4;
-        font-weight: bold;
-        color: $color_3!important;
-    }
-
-    a.ui-button {
-        &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button.ui-state-active {
-        &:hover {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_4;
-        }
-    }
-
-    .ui-state-active a,
-    .ui-state-active a:link,
-    .ui-state-active a:visited {
-        color: $color_3!important;
-    }
-
-    .ui-state-default a,
-    .ui-state-default a:link,
-    a.ui-button,
-    a:link.ui-button,
-    .ui-button {
-        color: $color_4;
-    }
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #7D7D7D;
+  border-left: none;
+  border-radius: 0;
+  background: transparent;
+  color: #323132;
+  font-weight: bold;
+}
+.custom_tab .ui-state-default {
+  border: 1px solid #7D7D7D;
+  background: rgba(181, 217, 179, 0.1725490196);
+  font-weight: bold;
+  color: #323132;
+}
+.custom_tab .ui-state-active {
+  border: 1px solid #7D7D7D;
+  background-color: #B5D9B3;
+  font-weight: bold;
+  color: #323132;
+}
+.custom_tab a.ui-button:active {
+  border: 1px solid #7D7D7D;
+  background-color: #B5D9B3;
+  font-weight: bold;
+  color: #323132;
+}
+.custom_tab .ui-state-active a,
+.custom_tab .ui-state-active a:link,
+.custom_tab .ui-state-active a:visited {
+  color: #323132 !important;
+}
+.custom_tab .ui-state-default a,
+.custom_tab .ui-state-default a:link,
+.custom_tab a.ui-button,
+.custom_tab a:link.ui-button,
+.custom_tab .ui-button {
+  color: #7D7D7D;
 }
 
 .content_tabs {
-    width: 100%;
-    min-height: 300px;
-    overflow-y: auto;
-}
-
-*/
-/* Change background color of tabs */
-.tabs {
-  /* Change background color of active tab */
-}
-.tabs .tab-links a {
-  background-color: #ddd;
-}
-.tabs .tab-links li.active a {
-  background-color: #f9f9f9;
+  width: 100%;
+  min-height: 300px;
+  overflow-y: auto;
 }
 
 i,

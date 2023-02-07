@@ -1,108 +1,40 @@
-/*
 .custom_tab {
-    border: 1px solid $clr4;
-    background: $clr4;
-    color: $momentum_clr9;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid $momentum_clr11;
+    border-left: none;
+    border-radius: 0;
+    background: transparent;
+    color: $momentum_clr12;
     font-weight: bold;
 
     .ui-state-default {
-        border: 1px solid $color_3;
-        background: $color_3;
+        border: 1px solid $momentum_clr11;
+        background: $clr4;
         font-weight: bold;
-        color: $color_1;
-    }
-
-    .ui-widget-content {
-        .ui-state-default {
-            border: 1px solid $color_3;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_1;
-        }
-
-        .ui-state-active {
-            border: 1px solid $color_4;
-            background: $color_1;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-widget-header {
-        .ui-state-default {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_1;
-        }
-
-        .ui-state-active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button {
-        border: 1px solid $color_4;
-        background: $color_3;
-        font-weight: bold;
-        color: $color_1;
-
-        &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button.ui-state-disabled {
-        &:hover {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_4;
-        }
-
-        &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
-            font-weight: bold;
-            color: $color_3!important;
-        }
+        color: $momentum_clr12;
     }
 
     .ui-state-active {
-        border: 1px solid $color_4;
-        background: $color_4;
+        border: 1px solid $momentum_clr11;
+        background-color: $tb1_clr1;
         font-weight: bold;
-        color: $color_3!important;
+        color: $momentum_clr12;
     }
 
     a.ui-button {
         &:active {
-            border: 1px solid $color_4;
-            background: $color_4;
+            border: 1px solid $momentum_clr11;
+            background-color: $tb1_clr1;
             font-weight: bold;
-            color: $color_3!important;
-        }
-    }
-
-    .ui-button.ui-state-active {
-        &:hover {
-            border: 1px solid $color_4;
-            background: $color_3;
-            font-weight: bold;
-            color: $color_4;
+            color: $momentum_clr12;
         }
     }
 
     .ui-state-active a,
     .ui-state-active a:link,
     .ui-state-active a:visited {
-        color: $color_3!important;
+        color: $momentum_clr12 !important;
     }
 
     .ui-state-default a,
@@ -110,8 +42,9 @@
     a.ui-button,
     a:link.ui-button,
     .ui-button {
-        color: $color_4;
+        color: $momentum_clr11;
     }
+
 }
 
 .content_tabs {
@@ -119,17 +52,3 @@
     min-height: 300px;
     overflow-y: auto;
 }
-
-*/
-/* Change background color of tabs */
-.tabs {
-    .tab-links {
-      a {
-        background-color: #ddd;
-      }
-    }
-    /* Change background color of active tab */
-    .tab-links li.active a {
-      background-color: #f9f9f9;
-    }
-  }
