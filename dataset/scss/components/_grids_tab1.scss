@@ -5907,7 +5907,8 @@
         "l21 l21e1g1 l21g1e2 l21g1e3 l21g1e4 l21g1t"
         "l22 l22e1g1 l22g1e2 l22g1e3 l22g1e4 l22g1t"
         "l23 l23e1g1 l23g1e2 l23g1e3 l23g1e4 l23g1t"
-        "l24 l24e1g1 l24g1e2 l24g1e3 l24g1e4 l24g1t";
+        "l24 l24e1g1 l24g1e2 l24g1e3 l24g1e4 l24g1t"
+        "l25 l25e1g1 l25g1e2 l25g1e3 l25g1e4 l25g1t";
 
     .title {
         grid-area: title;
@@ -6706,7 +6707,6 @@
         grid-area: l8e1g1;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        background-color: $clr_brdr;
 
         input {
             width: 80%;
@@ -6722,7 +6722,6 @@
         grid-area: l8g1e2;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        background-color: $clr_brdr;
 
         input {
             width: 80%;
@@ -6738,7 +6737,6 @@
         grid-area: l8g1e3;
         border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        background-color: $clr_brdr;
 
         input {
             width: 80%;
@@ -8305,6 +8303,119 @@
 
     .l24g1t {
         grid-area: l24g1t;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        border-left: 1px solid $clr_brdr;
+        background-color: $tb1_clr2;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    ///////////////////////////
+
+    .l25 {
+        grid-area: l25;
+        background-color: $tb1_clr2;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        .lbl {
+            text-transform: capitalize;
+        }
+    }
+
+    .l25e1g1 {
+        grid-area: l25e1g1;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    .l25g1e2 {
+        grid-area: l25g1e2;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    .l25g1e3 {
+        grid-area: l25g1e3;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        background-color: $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    .l25g1e4 {
+        grid-area: l25g1e4;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    .l25g1e4 {
+        grid-area: l25g1e4;
+        border-bottom: 1px solid $clr_brdr;
+        border-left: 1px solid $clr_brdr;
+        background-color: $tb1_clr2;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none!important;
+            padding: 2px 8px;
+            text-align: right;
+            background-color: transparent!important;
+        }
+    }
+
+    .l25g1t {
+        grid-area: l25g1t;
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         border-left: 1px solid $clr_brdr;
