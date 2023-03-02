@@ -10362,14 +10362,14 @@
 
 .grdTb3-1 {
   display: grid;
-  grid-template-columns: 30% repeat(5, minmax(90px, 100px));
+  grid-template-columns: 30% minmax(90px, 100px);
   grid-template-rows: auto;
   grid-auto-columns: auto;
   grid-auto-rows: auto;
   gap: 0px 0px;
   grid-auto-flow: column;
   margin-bottom: 36px;
-  grid-template-areas: "title t1 t2" "l1 l1e1g1 l1g1e2" "l2 l2e1g1 l2g1e2" "l3 l3e1g1 l3g1e2";
+  grid-template-areas: "title t1" "l1 l1e1g1" "l2 l2e1g1" "l3 l3e1g1";
 }
 .grdTb3-1 .title {
   grid-area: title;
@@ -10393,28 +10393,12 @@
   border-top: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
+  border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
   display: flex;
   align-items: center;
   padding: 8px;
 }
 .grdTb3-1 .t1 .lbl {
-  width: 80%;
-  font-weight: 500;
-  text-align: center;
-  text-transform: capitalize;
-}
-.grdTb3-1 .t2 {
-  grid-area: t2;
-  background-color: #fac88b;
-  border-top: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
-  display: flex;
-  align-items: center;
-  padding: 8px;
-}
-.grdTb3-1 .t2 .lbl {
   width: 80%;
   font-weight: 500;
   text-align: center;
@@ -10437,22 +10421,9 @@
   grid-area: l1e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
-}
-.grdTb3-1 .l1e1g1 input {
-  width: 80%;
-  height: 80%;
-  border: none !important;
-  padding: 2px 8px;
-  text-align: right;
-}
-.grdTb3-1 .l1g1e2 {
-  grid-area: l1g1e2;
-  border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
 }
-.grdTb3-1 .l1g1e2 input {
-  width: 80%;
+.grdTb3-1 .l1e1g1 input {
   height: 80%;
   border: none !important;
   padding: 2px 8px;
@@ -10475,22 +10446,9 @@
   grid-area: l2e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
-}
-.grdTb3-1 .l2e1g1 input {
-  width: 80%;
-  height: 80%;
-  border: none !important;
-  padding: 2px 8px;
-  text-align: right;
-}
-.grdTb3-1 .l2g1e2 {
-  grid-area: l2g1e2;
-  border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
 }
-.grdTb3-1 .l2g1e2 input {
-  width: 80%;
+.grdTb3-1 .l2e1g1 input {
   height: 80%;
   border: none !important;
   padding: 2px 8px;
@@ -10512,22 +10470,9 @@
   grid-area: l3e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
   border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
+  border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
 }
 .grdTb3-1 .l3e1g1 input {
-  width: 80%;
-  height: 80%;
-  border: none !important;
-  padding: 2px 8px;
-  text-align: right;
-}
-.grdTb3-1 .l3g1e2 {
-  grid-area: l3g1e2;
-  border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-right: 1px solid rgba(41, 38, 38, 0.5333333333);
-  border-bottom: 1px solid rgba(41, 38, 38, 0.5333333333);
-}
-.grdTb3-1 .l3g1e2 input {
-  width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
