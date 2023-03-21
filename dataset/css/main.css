@@ -27,6 +27,9 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+.grdTb1-1 .title .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t1 {
   grid-area: t1;
   background-color: #B5D9B3;
@@ -43,6 +46,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t1 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t1s1 {
   grid-area: t1s1;
   background-color: #B5D9B3;
@@ -57,6 +63,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-1 .t1s1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .t1s2 {
   grid-area: t1s2;
@@ -73,6 +82,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t1s2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t1s3 {
   grid-area: t1s3;
   background-color: #B5D9B3;
@@ -88,6 +100,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t1s3 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t1s4 {
   grid-area: t1s4;
   background-color: #B5D9B3;
@@ -102,6 +117,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-1 .t1s4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .t1t {
   grid-area: t1t;
@@ -119,6 +137,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t1t .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t2 {
   grid-area: t2;
   background-color: #B5D9B3;
@@ -135,6 +156,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t2s1 {
   grid-area: t2s1;
   background-color: #B5D9B3;
@@ -149,6 +173,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-1 .t2s1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .t2s2 {
   grid-area: t2s2;
@@ -165,6 +192,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t2s2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t2s3 {
   grid-area: t2s3;
   background-color: #B5D9B3;
@@ -180,6 +210,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t2s3 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .t2s4 {
   grid-area: t2s4;
   background-color: #B5D9B3;
@@ -194,6 +227,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-1 .t2s4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .t2t {
   grid-area: t2t;
@@ -212,6 +248,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-1 .t2t .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l1 {
   grid-area: l1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -224,6 +263,9 @@
 .grdTb1-1 .l1 .lbl {
   text-align: left;
   text-transform: capitalize;
+}
+.grdTb1-1 .l1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l1e1g1 {
   grid-area: l1e1g1;
@@ -361,6 +403,9 @@
   text-align: left;
   text-transform: capitalize;
 }
+.grdTb1-1 .l2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l2e1g1 {
   grid-area: l2e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -491,10 +536,13 @@
   background-color: #DAECDB;
   display: flex;
   align-items: center;
-  padding: 8px 8px 8px 15%;
+  padding: 8px 8px 8px 20%;
 }
 .grdTb1-1 .l3 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l3 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l3e1g1 {
   grid-area: l3e1g1;
@@ -626,10 +674,13 @@
   background-color: #DAECDB;
   display: flex;
   align-items: center;
-  padding: 8px 8px 8px 15%;
+  padding: 8px 8px 8px 20%;
 }
 .grdTb1-1 .l4 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l4e1g1 {
   grid-area: l4e1g1;
@@ -761,10 +812,13 @@
   background-color: #DAECDB;
   display: flex;
   align-items: center;
-  padding: 8px 8px 8px 15%;
+  padding: 8px 8px 8px 20%;
 }
 .grdTb1-1 .l5 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l5 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l5e1g1 {
   grid-area: l5e1g1;
@@ -901,6 +955,9 @@
 .grdTb1-1 .l6 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l6 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l6e1g1 {
   grid-area: l6e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -1031,10 +1088,13 @@
   background-color: #DAECDB;
   display: flex;
   align-items: center;
-  padding: 8px;
+  padding: 8px 8px 8px 15%;
 }
 .grdTb1-1 .l7 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l7 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l7e1g1 {
   grid-area: l7e1g1;
@@ -1175,6 +1235,9 @@
 }
 .grdTb1-1 .l8 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l8 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l8e1g1 {
   grid-area: l8e1g1;
@@ -1320,6 +1383,9 @@
 .grdTb1-1 .l9 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l9 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l9e1g1 {
   grid-area: l9e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -1460,6 +1526,9 @@
 .grdTb1-1 .l10 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l10 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l10e1g1 {
   grid-area: l10e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -1599,6 +1668,9 @@
 }
 .grdTb1-1 .l11 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l11 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l11e1g1 {
   grid-area: l11e1g1;
@@ -1743,6 +1815,9 @@
 .grdTb1-1 .l12 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l12 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l12e1g1 {
   grid-area: l12e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -1885,6 +1960,9 @@
 }
 .grdTb1-1 .l13 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l13 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l13e1g1 {
   grid-area: l13e1g1;
@@ -2029,6 +2107,9 @@
 .grdTb1-1 .l14 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l14 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l14e1g1 {
   grid-area: l14e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -2171,6 +2252,9 @@
 }
 .grdTb1-1 .l15 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l15 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l15e1g1 {
   grid-area: l15e1g1;
@@ -2315,6 +2399,9 @@
 .grdTb1-1 .l16 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l16 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l16e1g1 {
   grid-area: l16e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -2457,6 +2544,9 @@
 }
 .grdTb1-1 .l17 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l17 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l17e1g1 {
   grid-area: l17e1g1;
@@ -2601,6 +2691,9 @@
 .grdTb1-1 .l18 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l18 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l18e1g1 {
   grid-area: l18e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -2736,6 +2829,9 @@
 .grdTb1-1 .l19 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-1 .l19 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-1 .l19e1g1 {
   grid-area: l19e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -2870,6 +2966,9 @@
 }
 .grdTb1-1 .l20 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-1 .l20 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-1 .l20e1g1 {
   grid-area: l20e1g1;
@@ -3023,6 +3122,9 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+.grdTb1-2 .title .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t1 {
   grid-area: t1;
   background-color: #B5D9B3;
@@ -3039,6 +3141,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t1 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t1s1 {
   grid-area: t1s1;
   background-color: #B5D9B3;
@@ -3053,6 +3158,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-2 .t1s1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .t1s2 {
   grid-area: t1s2;
@@ -3069,6 +3177,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t1s2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t1s3 {
   grid-area: t1s3;
   background-color: #B5D9B3;
@@ -3084,6 +3195,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t1s3 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t1s4 {
   grid-area: t1s4;
   background-color: #B5D9B3;
@@ -3098,6 +3212,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-2 .t1s4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .t1t {
   grid-area: t1t;
@@ -3115,6 +3232,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t1t .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t2 {
   grid-area: t2;
   background-color: #B5D9B3;
@@ -3131,6 +3251,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t2s1 {
   grid-area: t2s1;
   background-color: #B5D9B3;
@@ -3145,6 +3268,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-2 .t2s1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .t2s2 {
   grid-area: t2s2;
@@ -3161,6 +3287,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t2s2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t2s3 {
   grid-area: t2s3;
   background-color: #B5D9B3;
@@ -3176,6 +3305,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t2s3 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .t2s4 {
   grid-area: t2s4;
   background-color: #B5D9B3;
@@ -3190,6 +3322,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-2 .t2s4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .t2t {
   grid-area: t2t;
@@ -3208,6 +3343,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-2 .t2t .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l1 {
   grid-area: l1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -3220,6 +3358,9 @@
 .grdTb1-2 .l1 .lbl {
   text-align: left;
   text-transform: capitalize;
+}
+.grdTb1-2 .l1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l1e1g1 {
   grid-area: l1e1g1;
@@ -3357,6 +3498,9 @@
   text-align: left;
   text-transform: capitalize;
 }
+.grdTb1-2 .l2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l2e1g1 {
   grid-area: l2e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -3491,6 +3635,9 @@
 }
 .grdTb1-2 .l3 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-2 .l3 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l3e1g1 {
   grid-area: l3e1g1;
@@ -3627,6 +3774,9 @@
 .grdTb1-2 .l4 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-2 .l4 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l4e1g1 {
   grid-area: l4e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -3761,6 +3911,9 @@
 }
 .grdTb1-2 .l5 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-2 .l5 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l5e1g1 {
   grid-area: l5e1g1;
@@ -3901,6 +4054,9 @@
 .grdTb1-2 .l6 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-2 .l6 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l6e1g1 {
   grid-area: l6e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -4039,6 +4195,9 @@
 }
 .grdTb1-2 .l7 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-2 .l7 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l7e1g1 {
   grid-area: l7e1g1;
@@ -4180,6 +4339,9 @@
 .grdTb1-2 .l8 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-2 .l8 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l8e1g1 {
   grid-area: l8e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -4318,6 +4480,9 @@
 }
 .grdTb1-2 .l9 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-2 .l9 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l9e1g1 {
   grid-area: l9e1g1;
@@ -4458,6 +4623,9 @@
 .grdTb1-2 .l10 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-2 .l10 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-2 .l10e1g1 {
   grid-area: l10e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -4596,6 +4764,9 @@
 }
 .grdTb1-2 .l11 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-2 .l11 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-2 .l11e1g1 {
   grid-area: l11e1g1;
@@ -4753,6 +4924,9 @@
   font-weight: 500;
   text-transform: uppercase;
 }
+.grdTb1-3 .title .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .t1 {
   grid-area: t1;
   background-color: #B5D9B3;
@@ -4769,6 +4943,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-3 .t1 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .t1s1 {
   grid-area: t1s1;
   background-color: #B5D9B3;
@@ -4783,6 +4960,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-3 .t1s1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .t1s2 {
   grid-area: t1s2;
@@ -4799,6 +4979,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-3 .t1s2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .t1s3 {
   grid-area: t1s3;
   background-color: #B5D9B3;
@@ -4814,6 +4997,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-3 .t1s3 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .t1s4 {
   grid-area: t1s4;
   background-color: #B5D9B3;
@@ -4828,6 +5014,9 @@
   font-weight: 500;
   text-align: center;
   text-transform: capitalize;
+}
+.grdTb1-3 .t1s4 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .t1t {
   grid-area: t1t;
@@ -4846,6 +5035,9 @@
   text-align: center;
   text-transform: capitalize;
 }
+.grdTb1-3 .t1t .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l1 {
   grid-area: l1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -4858,6 +5050,9 @@
 .grdTb1-3 .l1 .lbl {
   text-align: left;
   text-transform: capitalize;
+}
+.grdTb1-3 .l1 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l1e1g1 {
   grid-area: l1e1g1;
@@ -4934,6 +5129,9 @@
   text-align: left;
   text-transform: capitalize;
 }
+.grdTb1-3 .l2 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l2e1g1 {
   grid-area: l2e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5007,6 +5205,9 @@
 }
 .grdTb1-3 .l3 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l3 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l3e1g1 {
   grid-area: l3e1g1;
@@ -5082,6 +5283,9 @@
 .grdTb1-3 .l4 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l4 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l4e1g1 {
   grid-area: l4e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5155,6 +5359,9 @@
 }
 .grdTb1-3 .l5 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l5 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l5e1g1 {
   grid-area: l5e1g1;
@@ -5230,6 +5437,9 @@
 .grdTb1-3 .l6 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l6 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l6e1g1 {
   grid-area: l6e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5303,6 +5513,9 @@
 }
 .grdTb1-3 .l7 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l7 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l7e1g1 {
   grid-area: l7e1g1;
@@ -5379,6 +5592,9 @@
 .grdTb1-3 .l8 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l8 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l8e1g1 {
   grid-area: l8e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5452,6 +5668,9 @@
 }
 .grdTb1-3 .l9 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l9 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l9e1g1 {
   grid-area: l9e1g1;
@@ -5530,6 +5749,9 @@
 .grdTb1-3 .l10 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l10 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l10e1g1 {
   grid-area: l10e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5606,6 +5828,9 @@
 }
 .grdTb1-3 .l11 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l11 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l11e1g1 {
   grid-area: l11e1g1;
@@ -5684,6 +5909,9 @@
 .grdTb1-3 .l12 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l12 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l12e1g1 {
   grid-area: l12e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5760,6 +5988,9 @@
 }
 .grdTb1-3 .l13 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l13 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l13e1g1 {
   grid-area: l13e1g1;
@@ -5838,6 +6069,9 @@
 .grdTb1-3 .l14 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l14 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l14e1g1 {
   grid-area: l14e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -5914,6 +6148,9 @@
 }
 .grdTb1-3 .l15 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l15 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l15e1g1 {
   grid-area: l15e1g1;
@@ -5992,6 +6229,9 @@
 .grdTb1-3 .l16 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l16 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l16e1g1 {
   grid-area: l16e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -6068,6 +6308,9 @@
 }
 .grdTb1-3 .l17 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l17 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l17e1g1 {
   grid-area: l17e1g1;
@@ -6146,6 +6389,9 @@
 .grdTb1-3 .l18 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l18 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l18e1g1 {
   grid-area: l18e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -6222,6 +6468,9 @@
 }
 .grdTb1-3 .l19 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l19 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l19e1g1 {
   grid-area: l19e1g1;
@@ -6300,6 +6549,9 @@
 .grdTb1-3 .l20 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l20 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l20e1g1 {
   grid-area: l20e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -6376,6 +6628,9 @@
 }
 .grdTb1-3 .l21 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l21 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l21e1g1 {
   grid-area: l21e1g1;
@@ -6454,6 +6709,9 @@
 .grdTb1-3 .l22 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l22 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l22e1g1 {
   grid-area: l22e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -6530,6 +6788,9 @@
 }
 .grdTb1-3 .l23 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l23 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l23e1g1 {
   grid-area: l23e1g1;
@@ -6608,6 +6869,9 @@
 .grdTb1-3 .l24 .lbl {
   text-transform: capitalize;
 }
+.grdTb1-3 .l24 .lbl span {
+  font-weight: 800;
+}
 .grdTb1-3 .l24e1g1 {
   grid-area: l24e1g1;
   border-left: 1px solid rgba(41, 38, 38, 0.5333333333);
@@ -6685,6 +6949,9 @@
 }
 .grdTb1-3 .l25 .lbl {
   text-transform: capitalize;
+}
+.grdTb1-3 .l25 .lbl span {
+  font-weight: 800;
 }
 .grdTb1-3 .l25e1g1 {
   grid-area: l25e1g1;
