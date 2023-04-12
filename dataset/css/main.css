@@ -6144,7 +6144,7 @@
   background-color: #DAECDB;
   display: flex;
   align-items: center;
-  padding: 8px;
+  padding: 8px 8px 8px 15%;
 }
 .grdTb1-3 .l15 .lbl {
   text-transform: capitalize;
